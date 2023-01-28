@@ -1,0 +1,79 @@
+	header{
+		z-index:1;
+		background-image:url(cloude2.png);
+		background-repeat: repeat-x;
+		background-attachment:fixed;
+		}
+
+
+	.leftcolumn {float:left; width:250px; padding-top:10px; }
+
+	.floatright { padding:4px padding-left:30px; float:right; width: 79%; }
+
+
+	 strong {font-family: verdana, helvetica, sans-serif;}
+	
+	 h2{font-family: verdana, helvetica, sans-serif;
+		color:white;
+		text-indent: 1em;
+		border-style:groove;
+		borde-wedith: 3px solid ;
+		border-radius: 20px;
+		background-color:DarkCyan;
+		}
+		
+	ul{
+		font-family: verdana, helvetica, sans-serif;
+	      font-size: 14px;‏
+		text-align:left;
+		
+	}
+
+	.border{
+		border-style:groove;
+		borde-wedith: 2px solid;
+		border-top:none;
+		border-radius: 30px;
+	}
+	
+	.pstyle{
+		border-style:groove;
+		borde-wedith: 3px solid;
+		border-top:none;
+		border-down:1px;
+		border-color:white;
+		background-color:DarkCyan;
+		color:white;
+		font-size:16px;
+		text-decoration:bold;
+		font-family: verdana, helvetica, sans-serif;
+		}
+
+	p{
+	 text-indent: 1em;
+	 font-family: verdana, helvetica, sans-serif;
+	  font-size:14px;
+	  padding:.2em;}
+
+
+@media screen and (min-width: 576px) {
+body {
+    	font-family:"Lucida Console", "Courier New", monospace;
+	color:Teal;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+    background-color: DarkSlateGray;
+	color:white;
+  }
+  }
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: white;
+    color:black;
+  }	
